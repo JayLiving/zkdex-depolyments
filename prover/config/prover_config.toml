@@ -1,0 +1,36 @@
+# simple prover or aggregator
+worker_name = "zkwasm-prover-01"
+log_dir = "data/logs"
+log_level = "info"
+
+pg_url = "postgres://oker:oker@localhost:8432/okdexdtest"
+pool_max_size = 32
+
+[prover]
+# Interval of notifying about an ongoing job in ms.
+heartbeat_interval = 1000
+# Interval between the prover rounds in ms.
+cycle_wait = 500
+# Timeout for the requests to the prover server in milli seconds.
+request_timeout = 5000
+# Flag for dying after proving cycle
+die_after_proof = false
+prepare_data_interval = 1000
+data_dir = "./data"
+debug_file=false
+# used to choose which type of proofs to create
+#prefer_proof_type = "guest"
+group_size = 16
+blocks_per_round = 2
+wasm_image_path = "./bin/wasm/zkdex_wasm_bg_opt.wasm"
+threads = 2
+cache_pkey = true
+
+[prover.api]
+url = "https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler"
+port = 0
+secret_auth = "abc"
+
+[promethues]
+enable = false
+port = "7009"

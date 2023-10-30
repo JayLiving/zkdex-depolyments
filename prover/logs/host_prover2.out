@@ -1,0 +1,1062 @@
+[2mOct 30 07:31:36.713[0m [32m INFO[0m prover::cli_utils: creating prover, worker name: a100_zkdex_01
+[2mOct 30 07:31:36.713[0m [32m INFO[0m prover::cli_utils: prover type: Some(Host), threads num: 3, cache pkey:true
+read params K=23 from "./data/K23.params"
+[2mOct 30 07:32:21.984[0m [32m INFO[0m prover: Running worker cycle
+[2mOct 30 07:32:21.985[0m [32m INFO[0m prover: Running worker cycle
+[2mOct 30 07:32:21.985[0m [32m INFO[0m prover: Running worker cycle
+[2mOct 30 08:15:40.059[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:40.060[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:40.561[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:40.561[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:41.060[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:41.060[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:41.565[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:41.565[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:41.762[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:41.762[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:41.785[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:41.785[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:42.365[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:42.365[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:42.410[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:42.410[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:42.427[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:42.427[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:43.473[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:43.473[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:43.653[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:43.653[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:44.312[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:44.312[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:45.471[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:45.471[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 4.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:45.980[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:45.980[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:46.851[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:46.851[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:48.001[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:48.001[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:49.690[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:49.690[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 7.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:49.859[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:49.859[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:51.381[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:51.381[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:56.003[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:56.003[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:57.142[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:57.142[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:57.227[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:57.227[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 5.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:58.129[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:58.129[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:15:59.868[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:15:59.868[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:00.606[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:00.606[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:03.002[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:03.002[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 7.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:03.047[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:03.047[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 14.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:08.361[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:08.361[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 12.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:11.058[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:11.058[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:17.952[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:17.952[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:19.861[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:19.861[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 10.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:21.207[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:21.207[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 5.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:26.294[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:26.294[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:26.655[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:26.655[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:26.992[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:26.992[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:28.206[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:28.206[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:28.624[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:28.624[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:31.106[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:31.106[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:31.952[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:31.952[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:34.168[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:34.168[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:35.763[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:35.763[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 4.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:37.810[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:37.810[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:39.137[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:39.137[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:39.157[0m [33m WARN[0m prover::client: Failed to reach server err: <failed to send get job request: error sending request for url (https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler/get_job): operation timed out>, retrying after: 0.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:42.245[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:42.245[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:16:44.254[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:16:44.254[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:07.561[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:07.562[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:07.564[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:07.564[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:08.386[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:08.386[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:09.063[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:09.063[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:09.075[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:09.075[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:10.684[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:10.684[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:10.733[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:10.733[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:11.049[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:11.049[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:11.710[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:11.710[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:11.756[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:11.756[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:12.863[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:12.863[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:13.106[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:13.106[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:13.257[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:13.257[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:14.074[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:14.074[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:14.240[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:14.240[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:15.451[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:15.451[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:15.699[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:15.699[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:15.799[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:15.799[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:17.033[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:17.033[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:17.985[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:17.985[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:18.533[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:18.533[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:18.566[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:18.566[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:20.716[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:20.716[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 5.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:21.272[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:21.272[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:21.668[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:21.668[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:24.420[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:24.420[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 4.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:25.166[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:25.166[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:25.757[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:25.757[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 5.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:29.180[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:29.180[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:31.382[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:31.382[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:32.097[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:32.097[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 12.7s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:35.499[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:35.499[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 10.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:37.447[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:37.447[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:45.720[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:45.720[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 8.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:45.781[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:45.781[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 5.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:46.988[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:46.988[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 14.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:51.801[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:51.801[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 14.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:28:54.300[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:28:54.300[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:00.675[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:00.675[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:01.498[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:01.498[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:02.226[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:02.226[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.5s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:03.029[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:03.029[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:04.203[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:04.204[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:07.053[0m [33m WARN[0m prover::client: Failed to reach server err: <failed to send get job request: error sending request for url (https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler/get_job): operation timed out>, retrying after: 2.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:07.182[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:07.183[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:08.944[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:08.944[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:09.210[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:09.211[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.4s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:10.668[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:10.668[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:11.705[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:11.705[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 2.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:11.934[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:11.934[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:13.377[0m [33m WARN[0m prover::client: Failed to reach server err: <failed to send get job request: error sending request for url (https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler/get_job): operation timed out>, retrying after: 0.9s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:14.132[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:14.133[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 3.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:14.254[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:14.254[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.0s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:14.580[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:14.580[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 0.6s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:15.357[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:15.357[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:15.535[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:15.536[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:17.267[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:17.267[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 6.1s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:17.809[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:17.809[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.8s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:29:18.237[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 08:29:18.237[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.2s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 08:56:36.573[0m [32m INFO[0m prover: got job id: 21, blocks: [1, 1]
+[2mOct 30 08:56:36.573[0m [32m INFO[0m prover: starting to compute proof for blocks: [1, 1]
+[2mOct 30 08:56:36.573[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:1    
+[2mOct 30 08:56:36.573[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:1    
+[2mOct 30 08:56:36.574[0m [32m INFO[0m prover::prover_impl: pkey not exists:"./data/POSEIDONHASH.circuit.data"    
+quotient_poly_degree 4
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover: got job id: 23, blocks: [1, 1]
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover: starting to compute proof for blocks: [1, 1]
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:1    
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:1    
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover: got job id: 22, blocks: [1, 1]
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover: starting to compute proof for blocks: [1, 1]
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:1    
+[2mOct 30 08:56:36.583[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:1    
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+gpus number is 1
+--------- expr part 0 ---------
+complexity is ComplexityProfiler { mul: 27, sum: 52, scale: 40, unit: 67, y: 13, ref_cnt: {17: 5, 37: 1, 5: 3, 21: 3, 44: 1, 32: 1, 29: 3, 13: 6, 56: 1, 1: 4, 20: 2, 60: 1, 24: 2, 40: 1, 28: 2, 16: 2, 12: 2, 4: 2, 9: 9, 33: 9, 41: 1, 8: 2, 0: 2, 36: 2} }
+sorted ref cnt is [(9, 9), (33, 9), (13, 6), (17, 5), (1, 4), (29, 3), (21, 3), (5, 3), (0, 2), (20, 2), (16, 2), (24, 2), (4, 2), (36, 2), (8, 2), (28, 2), (12, 2), (40, 1), (37, 1), (56, 1), (60, 1), (41, 1), (32, 1), (44, 1)]
+r deep is 5
+[2mOct 30 08:58:03.990[0m [32m INFO[0m prover::prover_impl: store vkey into "./data/POSEIDONHASH.circuit.data"    
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 08:59:13.676[0m [32m INFO[0m prover::prover_impl: pkey not exists:"./data/JUBJUBSUM.circuit.data"    
+quotient_poly_degree 4
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:00:48.418[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:00:48.587[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:00:48.686[0m [32m INFO[0m prover: finished and published proof for blocks: [1, 1]
+[2mOct 30 09:00:48.800[0m [32m INFO[0m prover: got job id: 35, blocks: [5, 5]
+[2mOct 30 09:00:48.800[0m [32m INFO[0m prover: starting to compute proof for blocks: [5, 5]
+[2mOct 30 09:00:48.800[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:5    
+[2mOct 30 09:00:48.800[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:5    
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+gpus number is 1
+--------- expr part 0 ---------
+complexity is ComplexityProfiler { mul: 21, sum: 37, scale: 28, unit: 49, y: 10, ref_cnt: {44: 1, 17: 4, 12: 1, 0: 2, 56: 1, 40: 1, 1: 1, 33: 9, 29: 3, 37: 1, 41: 1, 21: 3, 36: 1, 24: 1, 5: 1, 9: 7, 8: 2, 20: 1, 32: 1, 16: 1, 28: 1, 13: 3, 4: 2} }
+sorted ref cnt is [(33, 9), (9, 7), (17, 4), (13, 3), (29, 3), (21, 3), (0, 2), (8, 2), (4, 2), (36, 1), (56, 1), (12, 1), (16, 1), (44, 1), (32, 1), (40, 1), (24, 1), (28, 1), (20, 1), (1, 1), (37, 1), (41, 1), (5, 1)]
+r deep is 5
+[2mOct 30 09:01:49.823[0m [32m INFO[0m prover::prover_impl: store vkey into "./data/JUBJUBSUM.circuit.data"    
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:03:25.809[0m [32m INFO[0m prover::prover_impl: load pkey from "./data/MERKLE.circuit.data"    
+read vkey full from "./data/MERKLE.circuit.data"
+quotient_poly_degree 4
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+gpus number is 1
+--------- expr part 0 ---------
+complexity is ComplexityProfiler { mul: 29, sum: 56, scale: 43, unit: 72, y: 14, ref_cnt: {0: 2, 37: 2, 36: 2, 12: 2, 32: 1, 40: 1, 20: 2, 24: 2, 21: 3, 4: 2, 44: 1, 56: 1, 1: 4, 5: 3, 33: 11, 60: 1, 41: 2, 28: 2, 9: 9, 16: 2, 29: 4, 13: 6, 8: 2, 17: 5} }
+sorted ref cnt is [(33, 11), (9, 9), (13, 6), (17, 5), (29, 4), (1, 4), (21, 3), (5, 3), (36, 2), (12, 2), (24, 2), (20, 2), (8, 2), (28, 2), (4, 2), (16, 2), (41, 2), (37, 2), (0, 2), (60, 1), (56, 1), (40, 1), (44, 1), (32, 1)]
+r deep is 6
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:06:01.381[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:06:01.541[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:06:01.630[0m [32m INFO[0m prover: finished and published proof for blocks: [1, 1]
+[2mOct 30 09:06:01.721[0m [32m INFO[0m prover: got job id: 42, blocks: [8, 8]
+[2mOct 30 09:06:01.721[0m [32m INFO[0m prover: starting to compute proof for blocks: [8, 8]
+[2mOct 30 09:06:01.721[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:8    
+[2mOct 30 09:06:01.721[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:8    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 09:06:58.680[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:06:58.841[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:06:58.931[0m [32m INFO[0m prover: finished and published proof for blocks: [1, 1]
+[2mOct 30 09:06:59.031[0m [32m INFO[0m prover: got job id: 48, blocks: [10, 10]
+[2mOct 30 09:06:59.031[0m [32m INFO[0m prover: starting to compute proof for blocks: [10, 10]
+[2mOct 30 09:06:59.031[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:10    
+[2mOct 30 09:06:59.031[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:10    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 09:07:08.435[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:07:08.640[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:07:08.737[0m [32m INFO[0m prover: finished and published proof for blocks: [5, 5]
+[2mOct 30 09:07:08.831[0m [32m INFO[0m prover: got job id: 49, blocks: [10, 10]
+[2mOct 30 09:07:08.831[0m [32m INFO[0m prover: starting to compute proof for blocks: [10, 10]
+[2mOct 30 09:07:08.831[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:10    
+[2mOct 30 09:07:08.831[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:10    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:08:28.726[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:08:28.889[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:08:28.986[0m [32m INFO[0m prover: finished and published proof for blocks: [8, 8]
+[2mOct 30 09:08:29.075[0m [32m INFO[0m prover: got job id: 55, blocks: [12, 12]
+[2mOct 30 09:08:29.075[0m [32m INFO[0m prover: starting to compute proof for blocks: [12, 12]
+[2mOct 30 09:08:29.075[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:12    
+[2mOct 30 09:08:29.075[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:12    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:10:20.364[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:10:20.528[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:10:20.618[0m [32m INFO[0m prover: finished and published proof for blocks: [10, 10]
+[2mOct 30 09:10:20.706[0m [32m INFO[0m prover: got job id: 61, blocks: [14, 14]
+[2mOct 30 09:10:20.706[0m [32m INFO[0m prover: starting to compute proof for blocks: [14, 14]
+[2mOct 30 09:10:20.706[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:14    
+[2mOct 30 09:10:20.706[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:14    
+k is 23
+[2mOct 30 09:10:21.459[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:10:21.620[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:10:21.708[0m [32m INFO[0m prover: finished and published proof for blocks: [10, 10]
+[2mOct 30 09:10:21.819[0m [32m INFO[0m prover: got job id: 62, blocks: [14, 14]
+[2mOct 30 09:10:21.819[0m [32m INFO[0m prover: starting to compute proof for blocks: [14, 14]
+[2mOct 30 09:10:21.819[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:14    
+[2mOct 30 09:10:21.819[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:14    
+total arg cells: 3600
+selector offset start at: 7800
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:11:20.390[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:11:20.551[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:11:20.642[0m [32m INFO[0m prover: finished and published proof for blocks: [12, 12]
+[2mOct 30 09:13:03.340[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:13:03.521[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:13:03.614[0m [32m INFO[0m prover: finished and published proof for blocks: [14, 14]
+[2mOct 30 09:13:07.809[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:13:07.964[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:13:08.055[0m [32m INFO[0m prover: finished and published proof for blocks: [14, 14]
+[2mOct 30 09:27:18.575[0m [32m INFO[0m prover: got job id: 84, blocks: [16, 16]
+[2mOct 30 09:27:18.575[0m [32m INFO[0m prover: starting to compute proof for blocks: [16, 16]
+[2mOct 30 09:27:18.575[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:16    
+[2mOct 30 09:27:18.575[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:16    
+[2mOct 30 09:27:18.579[0m [32m INFO[0m prover: got job id: 85, blocks: [16, 16]
+[2mOct 30 09:27:18.579[0m [32m INFO[0m prover: starting to compute proof for blocks: [16, 16]
+[2mOct 30 09:27:18.579[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:16    
+[2mOct 30 09:27:18.579[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:16    
+[2mOct 30 09:27:18.588[0m [32m INFO[0m prover: got job id: 86, blocks: [16, 16]
+[2mOct 30 09:27:18.588[0m [32m INFO[0m prover: starting to compute proof for blocks: [16, 16]
+[2mOct 30 09:27:18.588[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:16    
+[2mOct 30 09:27:18.588[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:16    
+k is 23
+k is 23
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:30:21.936[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:30:22.096[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:30:22.185[0m [32m INFO[0m prover: finished and published proof for blocks: [16, 16]
+[2mOct 30 09:30:22.280[0m [32m INFO[0m prover: got job id: 98, blocks: [20, 20]
+[2mOct 30 09:30:22.280[0m [32m INFO[0m prover: starting to compute proof for blocks: [20, 20]
+[2mOct 30 09:30:22.280[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:20    
+[2mOct 30 09:30:22.280[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:20    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:30:29.473[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:30:29.635[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:30:29.729[0m [32m INFO[0m prover: finished and published proof for blocks: [16, 16]
+[2mOct 30 09:30:29.825[0m [32m INFO[0m prover: got job id: 99, blocks: [21, 21]
+[2mOct 30 09:30:29.825[0m [32m INFO[0m prover: starting to compute proof for blocks: [21, 21]
+[2mOct 30 09:30:29.825[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:21    
+[2mOct 30 09:30:29.825[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:21    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:30:37.839[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:30:37.999[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:30:38.087[0m [32m INFO[0m prover: finished and published proof for blocks: [16, 16]
+[2mOct 30 09:30:38.178[0m [32m INFO[0m prover: got job id: 103, blocks: [22, 22]
+[2mOct 30 09:30:38.178[0m [32m INFO[0m prover: starting to compute proof for blocks: [22, 22]
+[2mOct 30 09:30:38.178[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:22    
+[2mOct 30 09:30:38.178[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:22    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:32:43.828[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:32:44.021[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:32:44.143[0m [32m INFO[0m prover: finished and published proof for blocks: [21, 21]
+[2mOct 30 09:32:44.397[0m [32m INFO[0m prover: got job id: 126, blocks: [24, 24]
+[2mOct 30 09:32:44.397[0m [32m INFO[0m prover: starting to compute proof for blocks: [24, 24]
+[2mOct 30 09:32:44.397[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:24    
+[2mOct 30 09:32:44.397[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:24    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:33:39.885[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:33:40.045[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:33:40.136[0m [32m INFO[0m prover: finished and published proof for blocks: [20, 20]
+[2mOct 30 09:33:40.226[0m [32m INFO[0m prover: got job id: 133, blocks: [26, 26]
+[2mOct 30 09:33:40.226[0m [32m INFO[0m prover: starting to compute proof for blocks: [26, 26]
+[2mOct 30 09:33:40.226[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:26    
+[2mOct 30 09:33:40.226[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:26    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:34:00.870[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:34:01.031[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:34:01.121[0m [32m INFO[0m prover: finished and published proof for blocks: [22, 22]
+[2mOct 30 09:34:54.149[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:34:54.306[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:34:54.399[0m [32m INFO[0m prover: finished and published proof for blocks: [24, 24]
+[2mOct 30 09:35:51.281[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:35:51.436[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:35:51.528[0m [32m INFO[0m prover: finished and published proof for blocks: [26, 26]
+[2mOct 30 09:37:57.575[0m [32m INFO[0m prover: got job id: 158, blocks: [29, 29]
+[2mOct 30 09:37:57.575[0m [32m INFO[0m prover: starting to compute proof for blocks: [29, 29]
+[2mOct 30 09:37:57.575[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:29    
+[2mOct 30 09:37:57.575[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:29    
+[2mOct 30 09:37:57.579[0m [32m INFO[0m prover: got job id: 159, blocks: [29, 29]
+[2mOct 30 09:37:57.579[0m [32m INFO[0m prover: starting to compute proof for blocks: [29, 29]
+[2mOct 30 09:37:57.579[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:29    
+[2mOct 30 09:37:57.579[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:29    
+k is 23
+k is 23
+[2mOct 30 09:37:58.580[0m [32m INFO[0m prover: got job id: 160, blocks: [30, 30]
+[2mOct 30 09:37:58.580[0m [32m INFO[0m prover: starting to compute proof for blocks: [30, 30]
+[2mOct 30 09:37:58.580[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:30    
+[2mOct 30 09:37:58.580[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:30    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:41:01.926[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:41:02.090[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:41:02.182[0m [32m INFO[0m prover: finished and published proof for blocks: [29, 29]
+[2mOct 30 09:41:02.282[0m [32m INFO[0m prover: got job id: 177, blocks: [35, 35]
+[2mOct 30 09:41:02.282[0m [32m INFO[0m prover: starting to compute proof for blocks: [35, 35]
+[2mOct 30 09:41:02.283[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:35    
+[2mOct 30 09:41:02.283[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:35    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:41:04.591[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:41:04.751[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:41:04.848[0m [32m INFO[0m prover: finished and published proof for blocks: [30, 30]
+[2mOct 30 09:41:13.021[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:41:13.180[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:41:13.269[0m [32m INFO[0m prover: finished and published proof for blocks: [29, 29]
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:42:33.364[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:42:33.524[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:42:33.618[0m [32m INFO[0m prover: finished and published proof for blocks: [35, 35]
+[2mOct 30 09:43:28.374[0m [32m INFO[0m prover: got job id: 198, blocks: [36, 36]
+[2mOct 30 09:43:28.374[0m [32m INFO[0m prover: starting to compute proof for blocks: [36, 36]
+[2mOct 30 09:43:28.374[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:36    
+[2mOct 30 09:43:28.374[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:36    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:43:34.580[0m [32m INFO[0m prover: got job id: 200, blocks: [37, 37]
+[2mOct 30 09:43:34.580[0m [32m INFO[0m prover: starting to compute proof for blocks: [37, 37]
+[2mOct 30 09:43:34.580[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:37    
+[2mOct 30 09:43:34.580[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:37    
+[2mOct 30 09:43:34.587[0m [32m INFO[0m prover: got job id: 201, blocks: [37, 37]
+[2mOct 30 09:43:34.587[0m [32m INFO[0m prover: starting to compute proof for blocks: [37, 37]
+[2mOct 30 09:43:34.587[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:37    
+[2mOct 30 09:43:34.587[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:37    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:45:44.094[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:45:44.278[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:45:44.368[0m [32m INFO[0m prover: finished and published proof for blocks: [37, 37]
+[2mOct 30 09:45:44.470[0m [32m INFO[0m prover: got job id: 214, blocks: [42, 42]
+[2mOct 30 09:45:44.470[0m [32m INFO[0m prover: starting to compute proof for blocks: [42, 42]
+[2mOct 30 09:45:44.470[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:42    
+[2mOct 30 09:45:44.470[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:42    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 09:46:34.669[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:46:34.829[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:46:34.922[0m [32m INFO[0m prover: finished and published proof for blocks: [36, 36]
+[2mOct 30 09:46:44.542[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:46:44.702[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:46:44.796[0m [32m INFO[0m prover: finished and published proof for blocks: [37, 37]
+[2mOct 30 09:47:43.744[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:47:43.903[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:47:43.994[0m [32m INFO[0m prover: finished and published proof for blocks: [42, 42]
+[2mOct 30 09:48:25.393[0m [32m INFO[0m prover: got job id: 236, blocks: [43, 43]
+[2mOct 30 09:48:25.393[0m [32m INFO[0m prover: starting to compute proof for blocks: [43, 43]
+[2mOct 30 09:48:25.393[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:43    
+[2mOct 30 09:48:25.393[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:43    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:48:43.583[0m [32m INFO[0m prover: got job id: 238, blocks: [44, 44]
+[2mOct 30 09:48:43.583[0m [32m INFO[0m prover: starting to compute proof for blocks: [44, 44]
+[2mOct 30 09:48:43.583[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:44    
+[2mOct 30 09:48:43.583[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:44    
+[2mOct 30 09:48:43.587[0m [32m INFO[0m prover: got job id: 237, blocks: [44, 44]
+[2mOct 30 09:48:43.588[0m [32m INFO[0m prover: starting to compute proof for blocks: [44, 44]
+[2mOct 30 09:48:43.588[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:44    
+[2mOct 30 09:48:43.588[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:44    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:51:47.565[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:51:47.733[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:51:47.817[0m [32m INFO[0m prover: finished and published proof for blocks: [43, 43]
+[2mOct 30 09:51:52.472[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:51:52.634[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:51:52.731[0m [32m INFO[0m prover: finished and published proof for blocks: [44, 44]
+[2mOct 30 09:51:53.551[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:51:53.711[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:51:53.805[0m [32m INFO[0m prover: finished and published proof for blocks: [44, 44]
+[2mOct 30 09:52:11.305[0m [31mERROR[0m prover::client: get job invalid response: Ok("an invalid response was received from the upstream server\n") file="core/lib/prover/src/client.rs" line=122 column=17
+[2mOct 30 09:52:11.305[0m [33m WARN[0m prover::client: Failed to reach server err: <failed parse json on get job request: expected value at line 1 column 1>, retrying after: 1.3s file="core/lib/prover/src/client.rs" line=59 column=13
+[2mOct 30 09:53:32.589[0m [32m INFO[0m prover: got job id: 254, blocks: [49, 49]
+[2mOct 30 09:53:32.590[0m [32m INFO[0m prover: starting to compute proof for blocks: [49, 49]
+[2mOct 30 09:53:32.590[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:49    
+[2mOct 30 09:53:32.590[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:49    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 09:53:50.590[0m [32m INFO[0m prover: got job id: 255, blocks: [50, 50]
+[2mOct 30 09:53:50.590[0m [32m INFO[0m prover: starting to compute proof for blocks: [50, 50]
+[2mOct 30 09:53:50.590[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:50    
+[2mOct 30 09:53:50.590[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:50    
+[2mOct 30 09:53:50.592[0m [32m INFO[0m prover: got job id: 256, blocks: [50, 50]
+[2mOct 30 09:53:50.592[0m [32m INFO[0m prover: starting to compute proof for blocks: [50, 50]
+[2mOct 30 09:53:50.592[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:50    
+[2mOct 30 09:53:50.592[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:50    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 09:56:47.257[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:56:47.424[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:56:47.516[0m [32m INFO[0m prover: finished and published proof for blocks: [49, 49]
+[2mOct 30 09:56:48.357[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:56:48.518[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:56:48.613[0m [32m INFO[0m prover: finished and published proof for blocks: [50, 50]
+[2mOct 30 09:56:49.522[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 09:56:49.682[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 09:56:49.774[0m [32m INFO[0m prover: finished and published proof for blocks: [50, 50]
+[2mOct 30 09:59:10.587[0m [32m INFO[0m prover: got job id: 297, blocks: [58, 58]
+[2mOct 30 09:59:10.587[0m [32m INFO[0m prover: starting to compute proof for blocks: [58, 58]
+[2mOct 30 09:59:10.587[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:58    
+[2mOct 30 09:59:10.587[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:58    
+[2mOct 30 09:59:10.591[0m [32m INFO[0m prover: got job id: 298, blocks: [58, 58]
+[2mOct 30 09:59:10.591[0m [32m INFO[0m prover: starting to compute proof for blocks: [58, 58]
+[2mOct 30 09:59:10.591[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:58    
+[2mOct 30 09:59:10.591[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:58    
+[2mOct 30 09:59:10.595[0m [32m INFO[0m prover: got job id: 299, blocks: [58, 58]
+[2mOct 30 09:59:10.595[0m [32m INFO[0m prover: starting to compute proof for blocks: [58, 58]
+[2mOct 30 09:59:10.595[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:58    
+[2mOct 30 09:59:10.595[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:58    
+k is 23
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:01:23.385[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:01:23.581[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:01:23.668[0m [32m INFO[0m prover: finished and published proof for blocks: [58, 58]
+[2mOct 30 10:02:06.120[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:02:06.281[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:02:06.372[0m [32m INFO[0m prover: finished and published proof for blocks: [58, 58]
+[2mOct 30 10:02:15.854[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:02:16.037[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:02:16.128[0m [32m INFO[0m prover: finished and published proof for blocks: [58, 58]
+[2mOct 30 10:03:03.583[0m [32m INFO[0m prover: got job id: 313, blocks: [63, 63]
+[2mOct 30 10:03:03.583[0m [32m INFO[0m prover: starting to compute proof for blocks: [63, 63]
+[2mOct 30 10:03:03.583[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:63    
+[2mOct 30 10:03:03.583[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:63    
+[2mOct 30 10:03:03.596[0m [32m INFO[0m prover: got job id: 314, blocks: [63, 63]
+[2mOct 30 10:03:03.596[0m [32m INFO[0m prover: starting to compute proof for blocks: [63, 63]
+[2mOct 30 10:03:03.596[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:63    
+[2mOct 30 10:03:03.596[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:63    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:04:24.582[0m [32m INFO[0m prover: got job id: 333, blocks: [64, 64]
+[2mOct 30 10:04:24.582[0m [32m INFO[0m prover: starting to compute proof for blocks: [64, 64]
+[2mOct 30 10:04:24.582[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:64    
+[2mOct 30 10:04:24.582[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:64    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 10:05:13.980[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:05:14.141[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:05:14.231[0m [32m INFO[0m prover: finished and published proof for blocks: [63, 63]
+[2mOct 30 10:05:28.099[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:05:28.262[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:05:28.355[0m [32m INFO[0m prover: finished and published proof for blocks: [63, 63]
+[2mOct 30 10:05:32.427[0m [32m INFO[0m prover: got job id: 340, blocks: [66, 66]
+[2mOct 30 10:05:32.427[0m [32m INFO[0m prover: starting to compute proof for blocks: [66, 66]
+[2mOct 30 10:05:32.427[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:66    
+[2mOct 30 10:05:32.427[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:66    
+[2mOct 30 10:05:32.598[0m [32m INFO[0m prover: got job id: 339, blocks: [66, 66]
+[2mOct 30 10:05:32.598[0m [32m INFO[0m prover: starting to compute proof for blocks: [66, 66]
+[2mOct 30 10:05:32.598[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:66    
+[2mOct 30 10:05:32.598[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:66    
+k is 23
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:06:25.230[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:06:25.390[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:06:25.482[0m [32m INFO[0m prover: finished and published proof for blocks: [64, 64]
+[2mOct 30 10:06:38.376[0m [32m INFO[0m prover: got job id: 344, blocks: [68, 68]
+[2mOct 30 10:06:38.376[0m [32m INFO[0m prover: starting to compute proof for blocks: [68, 68]
+[2mOct 30 10:06:38.376[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:68    
+[2mOct 30 10:06:38.376[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:68    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 10:08:02.538[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:08:02.730[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:08:02.820[0m [32m INFO[0m prover: finished and published proof for blocks: [66, 66]
+[2mOct 30 10:08:11.616[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:08:11.787[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:08:11.887[0m [32m INFO[0m prover: finished and published proof for blocks: [66, 66]
+[2mOct 30 10:09:05.627[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:09:05.785[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:09:05.875[0m [32m INFO[0m prover: finished and published proof for blocks: [68, 68]
+[2mOct 30 10:09:49.590[0m [32m INFO[0m prover: got job id: 351, blocks: [70, 70]
+[2mOct 30 10:09:49.590[0m [32m INFO[0m prover: starting to compute proof for blocks: [70, 70]
+[2mOct 30 10:09:49.590[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:70    
+[2mOct 30 10:09:49.590[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:70    
+[2mOct 30 10:09:49.593[0m [32m INFO[0m prover: got job id: 352, blocks: [70, 70]
+[2mOct 30 10:09:49.593[0m [32m INFO[0m prover: starting to compute proof for blocks: [70, 70]
+[2mOct 30 10:09:49.593[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:70    
+[2mOct 30 10:09:49.593[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:70    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 10:10:00.587[0m [32m INFO[0m prover: got job id: 353, blocks: [71, 71]
+[2mOct 30 10:10:00.587[0m [32m INFO[0m prover: starting to compute proof for blocks: [71, 71]
+[2mOct 30 10:10:00.587[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:71    
+[2mOct 30 10:10:00.587[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:71    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 10:12:46.995[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:12:47.159[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:12:47.247[0m [32m INFO[0m prover: finished and published proof for blocks: [70, 70]
+[2mOct 30 10:12:47.346[0m [32m INFO[0m prover: got job id: 385, blocks: [75, 75]
+[2mOct 30 10:12:47.346[0m [32m INFO[0m prover: starting to compute proof for blocks: [75, 75]
+[2mOct 30 10:12:47.346[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:75    
+[2mOct 30 10:12:47.346[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:75    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:13:03.075[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:13:03.274[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:13:03.364[0m [32m INFO[0m prover: finished and published proof for blocks: [71, 71]
+[2mOct 30 10:13:03.472[0m [32m INFO[0m prover: got job id: 386, blocks: [76, 76]
+[2mOct 30 10:13:03.472[0m [32m INFO[0m prover: starting to compute proof for blocks: [76, 76]
+[2mOct 30 10:13:03.472[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:76    
+[2mOct 30 10:13:03.472[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:76    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+[2mOct 30 10:13:09.525[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:13:09.686[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:13:09.776[0m [32m INFO[0m prover: finished and published proof for blocks: [70, 70]
+[2mOct 30 10:13:09.887[0m [32m INFO[0m prover: got job id: 388, blocks: [76, 76]
+[2mOct 30 10:13:09.887[0m [32m INFO[0m prover: starting to compute proof for blocks: [76, 76]
+[2mOct 30 10:13:09.887[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:76    
+[2mOct 30 10:13:09.887[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:76    
+k is 23
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:15:22.051[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:15:22.093[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:15:22.254[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:15:22.265[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:15:22.371[0m [32m INFO[0m prover: finished and published proof for blocks: [75, 75]
+[2mOct 30 10:15:22.373[0m [32m INFO[0m prover: finished and published proof for blocks: [76, 76]
+[2mOct 30 10:15:28.382[0m [32m INFO[0m prover: got job id: 396, blocks: [79, 79]
+[2mOct 30 10:15:28.382[0m [32m INFO[0m prover: starting to compute proof for blocks: [79, 79]
+[2mOct 30 10:15:28.382[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:79    
+[2mOct 30 10:15:28.382[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:79    
+[2mOct 30 10:15:28.388[0m [32m INFO[0m prover: got job id: 395, blocks: [79, 79]
+[2mOct 30 10:15:28.388[0m [32m INFO[0m prover: starting to compute proof for blocks: [79, 79]
+[2mOct 30 10:15:28.388[0m [32m INFO[0m prover::prover_impl: new proof job, type:PoseidonProof, block number:79    
+[2mOct 30 10:15:28.388[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:79    
+k is 23
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 20480
+selector offset start at: 75776
+total args is 20480
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 10:16:27.390[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:16:27.549[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:16:27.648[0m [32m INFO[0m prover: finished and published proof for blocks: [76, 76]
+[2mOct 30 10:16:57.427[0m [32m INFO[0m prover: got job id: 399, blocks: [80, 80]
+[2mOct 30 10:16:57.427[0m [32m INFO[0m prover: starting to compute proof for blocks: [80, 80]
+[2mOct 30 10:16:57.427[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:80    
+[2mOct 30 10:16:57.427[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:80    
+k is 23
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+[2mOct 30 10:17:59.651[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:17:59.841[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:17:59.938[0m [32m INFO[0m prover: finished and published proof for blocks: [79, 79]
+[2mOct 30 10:18:07.354[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:18:07.517[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:18:07.610[0m [32m INFO[0m prover: finished and published proof for blocks: [79, 79]
+[2mOct 30 10:18:57.202[0m [32m INFO[0m circuits_batcher::proof: proof created with instance: []    
+[2mOct 30 10:18:57.363[0m [32m INFO[0m circuits_batcher::proof: verify halo2 proof succeed    
+[2mOct 30 10:18:57.453[0m [32m INFO[0m prover: finished and published proof for blocks: [80, 80]
+[2mOct 30 10:20:11.590[0m [32m INFO[0m prover: got job id: 426, blocks: [83, 83]
+[2mOct 30 10:20:11.590[0m [32m INFO[0m prover: starting to compute proof for blocks: [83, 83]
+[2mOct 30 10:20:11.590[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:83    
+[2mOct 30 10:20:11.590[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:83    
+[2mOct 30 10:20:11.600[0m [32m INFO[0m prover: got job id: 425, blocks: [83, 83]
+[2mOct 30 10:20:11.600[0m [32m INFO[0m prover: starting to compute proof for blocks: [83, 83]
+[2mOct 30 10:20:11.600[0m [32m INFO[0m prover::prover_impl: new proof job, type:MerkleProof, block number:83    
+[2mOct 30 10:20:11.600[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:83    
+k is 23
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+total arg cells: 3600
+selector offset start at: 7800
+total arg cells: 3600
+selector offset start at: 7800
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+[2mOct 30 10:20:33.635[0m [32m INFO[0m prover: got job id: 430, blocks: [84, 84]
+[2mOct 30 10:20:33.635[0m [32m INFO[0m prover: starting to compute proof for blocks: [84, 84]
+[2mOct 30 10:20:33.635[0m [32m INFO[0m prover::prover_impl: new proof job, type:JubjubProof, block number:84    
+[2mOct 30 10:20:33.635[0m [32m INFO[0m prover::prover_impl: create_block_host_proof, block_number:84    
+k is 23
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400
+host op assign 0!
+total arg cells: 2400
+selector offset start at: 8400
+msm adaptor total args is 2400
+msm adaptor starting offset is 8400

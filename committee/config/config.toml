@@ -1,0 +1,27 @@
+"availability_gateway" = "https://www.okx.com/api/v1/zkdex/layer2/testnet/gateway"
+"token"="Bearer 3bedb7b8"
+"hash_func" = "sha3"
+"dump_block" = false
+"private_key" = "8ff3ca2d9985c3a52b459e2f6e7822b23e1af845961e22128d5f372fb9aa5f17"
+"polling_interval" = 4
+"backend"="https://test-starkex.okg.com"
+"backend_api"="/api/v5/zk/dex/testnet/zkp/committee-service"
+[headers]
+"key1"="value1"
+"key2"="value2"
+
+[postgres]
+"url" = "postgres://oker:oker@localhost:6432/okdexdtest"
+"pool_max_size" = 4
+"mongo_url"="mongodb://localhost:27018"
+
+[escape]
+"http_addr"="0.0.0.0:8000"
+[alert]
+[alert.lark]
+"api_url"="https://open.larksuite.com/open-apis/bot/v2/hook/45224321-da72-4ae2-ad5c-622eb0a7a505"
+
+[promethues]
+port="7004"
+enable=true
+
