@@ -1,0 +1,14 @@
+committee/bin/release/committeed
+committee/data/*
+committee/logs/*
+committee/nohup.out
+prover/bin/release/okdexd
+prover/data/*
+prover/etable.json
+prover/external_host_table.json
+prover/imtable.json
+prover/itable.json
+prover/jtable.json
+prover/mtable.json
+prover/logs/*
+source/zkdex-wasm-poc
