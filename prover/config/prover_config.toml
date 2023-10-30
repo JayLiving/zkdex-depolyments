@@ -1,5 +1,5 @@
 # simple prover or aggregator
-worker_name = "zkwasm-prover-01"
+worker_name = 
 log_dir = "data/logs"
 log_level = "info"
 
