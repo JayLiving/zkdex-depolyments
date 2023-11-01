@@ -31,6 +31,10 @@ url = "https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler"
 port = 0
 secret_auth = "abc"
 
+[prover.db]
+url="postgres://oker:oker@localhost:6432/okdexdtest"
+pool_max_size=32
+
 [promethues]
 enable = false
 port = "7009"

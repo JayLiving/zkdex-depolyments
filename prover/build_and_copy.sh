@@ -22,7 +22,7 @@ fi
 echo "using commit id $COMMIT_ID with commit msg:"
 
 # cargo build --package committeed  --features ignorebackend --features mongodb --features onlysync --release
-cargo build --package okdexd --features cuda --release
+cargo build --package okdexd --features cuda --features committeeprover --release
 
 cd $PREV_WD
 
