@@ -12,3 +12,5 @@ prover/jtable.json
 prover/mtable.json
 prover/logs/*
 source/zkdex-wasm-poc
+
+.idea
