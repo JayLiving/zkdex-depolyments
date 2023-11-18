@@ -32,8 +32,8 @@ port = 0
 secret_auth = "abc"
 
 [prover.db]
-url="postgres://oker:oker@localhost:6432/okdexdtest"
 pool_max_size=32
+mongo="mongodb://localhost:27018"
 
 [promethues]
 enable = false
