@@ -27,7 +27,7 @@ threads = 2
 cache_pkey = true
 
 [prover.api]
-url = "https://www.okx.com/api/v1/zkdex/layer2/testnet/scheduler"
+url = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/scheduler"
 port = 0
 secret_auth = "abc"
 

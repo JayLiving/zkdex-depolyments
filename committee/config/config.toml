@@ -1,4 +1,4 @@
-"availability_gateway" = "https://www.okx.com/api/v1/zkdex/layer2/testnet/availability_gateway"
+"availability_gateway" = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/availability_gateway"
 "token"="Bearer 3bedb7b8"
 "hash_func" = "sha3"
 "dump_block" = false
