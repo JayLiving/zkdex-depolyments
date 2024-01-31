@@ -1,22 +1,11 @@
 version: "3.3"
 services:
-  committee_postgres:
-    image: postgres:14.0
-    container_name: okdexd_committee_postgres
-    restart: always
-    environment:
-      POSTGRES_USER: oker
-      POSTGRES_PASSWORD: oker
-    ports:
-      - 6432:5432
-    volumes:
-      - ../data/pg_db:/var/lib/postgresql/data
-  committee-mongo:
+  committee-mongo_spot:
     image: mongo:7.0.0-rc6
-    container_name: committee_mongo_test
+    container_name: committee_mongo_test_spot
     restart: always
     ports:
-      - 27018:27017
+      - 27019:27017
     volumes:
       - ../data/mongo_db/db:/data/db
       - ../data/mongo_db/log:/var/log/mongodb

@@ -9,5 +9,5 @@ killbyname() {
   echo "All <$NAME> killed!"
 }
 
-killbyname "committeed"
+killbyname "spot_committeed"
 

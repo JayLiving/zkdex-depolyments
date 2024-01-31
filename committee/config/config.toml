@@ -1,5 +1,5 @@
 #"availability_gateway" = "http://18.177.190.207:3001/api/v1/zkdex/layer2/testnet/availability_gateway"
-"availability_gateway" = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/availability_gateway"
+"availability_gateway" = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/spot/availability_gateway"
 "token"="Bearer 3bedb7b8"
 "hash_func" = "sha3"
 "dump_block" = false
@@ -13,7 +13,7 @@
 
 [postgres]
 "pool_max_size" = 4
-"mongo_url"="mongodb://localhost:27018"
+"mongo_url"="mongodb://localhost:27019"
 
 [escape]
 "http_addr"="0.0.0.0:8000"
@@ -22,6 +22,6 @@
 "api_url"="https://open.larksuite.com/open-apis/bot/v2/hook/45224321-da72-4ae2-ad5c-622eb0a7a505"
 
 [promethues]
-port="7004"
+port="7005"
 enable=true
 

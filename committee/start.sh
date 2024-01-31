@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nohup ./bin/release/committeed --config config/config.toml &
+nohup ./bin/release/spot_committeed --config config/config.toml &

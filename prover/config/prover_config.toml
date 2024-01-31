@@ -3,9 +3,6 @@ worker_name = "4090-8"
 log_dir = "data/logs"
 log_level = "info"
 
-pg_url = "postgres://oker:oker@localhost:8432/okdexdtest"
-pool_max_size = 32
-
 [prover]
 # Interval of notifying about an ongoing job in ms.
 heartbeat_interval = 1000
@@ -20,20 +17,19 @@ data_dir = "./data"
 debug_file=false
 # used to choose which type of proofs to create
 #prefer_proof_type = "guest"
-group_size = 16
 blocks_per_round = 2
-wasm_image_path = "./bin/wasm/zkdex_wasm_bg_opt.wasm"
 threads = 2
+circuit_version="dev-1.6.4"
 cache_pkey = true
 
 [prover.api]
-url = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/scheduler"
+url = "https://exchaintmrpc.okex.org/api/v1/zkdex/layer2/testnet/spot/scheduler"
 port = 0
 secret_auth = "abc"
 
 [prover.db]
+mongo="mongodb://localhost:27019"
 pool_max_size=32
-mongo="mongodb://localhost:27018"
 
 [promethues]
 enable = false

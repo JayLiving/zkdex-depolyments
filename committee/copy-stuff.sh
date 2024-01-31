@@ -6,6 +6,6 @@
 rm -rf ./bin/release/*
 
 
-# cp -f ../source/zkdex-wasm-poc/target/debug/committeed ./bin/debug/
-cp -f ../source/zkdex-wasm-poc/target/release/committeed ./bin/release/
+# cp -f ../source/zkdex-wasm-poc/target/debug/committeed ./bin/debug/spot_committeed
+cp -f ../source/zkdex-wasm-poc/target/release/committeed ./bin/release/spot_committeed
 
